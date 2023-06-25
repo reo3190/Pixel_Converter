@@ -24,8 +24,8 @@ $(document).ready(function () {
             var count = 0;
             var t = "";
             var scaleW =  10000 / width;
-            var scaleH =  10000 / height;
-            $("#preview").css({ "transform": `scale(${scaleW}%,${scaleH}%)` });
+            //var scaleH =  10000 / height;
+            $("#preview").css({ "transform": `scale(${scaleW}%,${scaleW}%)` });
             
             
 
